@@ -1,0 +1,11 @@
+streamlit
+pandas
+opencv-python
+numpy
+mediapipe
+av
+tensorflow
+keras
+google-cloud-storage
+streamlit-webrtc==0.44.6
+google-auth
