@@ -7,7 +7,12 @@ requirements = [x.strip() for x in content if "git+" not in x]
 
 setup(name='sign_language',
       version="1.0",
-      description="learingin sign language streamlit app",
+      description="learning sign language streamlit app",
       author="Stu Howarth",
       install_requires=requirements,
-      packages=find_packages())
+      packages=find_packages(),
+      classifiers=[
+        "Programming Language :: Python :: 3.10.6",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+      ])
