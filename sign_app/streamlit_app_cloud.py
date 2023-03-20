@@ -24,12 +24,12 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers":[{"urls": ["stun:eu-turn5.xirsys.com"]},
-               {"username": "wvyohM6YQLnnWHVbjC57QCyuSje499sygAgHX1l5E3pRz7Fo-Nha1Uo439Mu-ZGnAAAAAGQYRW1nZW9yZ2lhbnRhbmFzZWxlYQ==",
-                "credential": "91a267b8-c713-11ed-9a20-0242ac140004",
-                "urls": ["turn:relay.metered.ca:443?transport=tcp",
+    {"iceServers":[{"urls": ["stun:relay.metered.ca:80"]},
+               {"username": "6111ad682a4920b506059ea0",
+                "credential": "rTbQUUtQWOSXGzq4",
+                "urls": ["turn:relay.metered.ca:80",
                          "turn:relay.metered.ca:443",
-                         "turn:relay.metered.ca:80"]}]}
+                         "turn:relay.metered.ca:443?transport=tcp"]}]}
 
 
 )
