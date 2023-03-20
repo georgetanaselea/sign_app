@@ -33,7 +33,7 @@ RTC_CONFIGURATION = RTCConfiguration(
                          "turn:eu-turn5.xirsys.com:3478?transport=tcp",
                          "turns:eu-turn5.xirsys.com:443?transport=tcp",
                          "turns:eu-turn5.xirsys.com:5349?transport=tcp"]}]
-
+     )
 list_of_predictions = []
 # counter = 0
 def app_sign_language_detection(model, mp_model):
