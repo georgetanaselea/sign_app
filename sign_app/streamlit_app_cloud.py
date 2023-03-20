@@ -24,7 +24,7 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers":[ice_servers = [{"urls": ["stun:eu-turn5.xirsys.com"]},
+    {"iceServers":[{"urls": ["stun:eu-turn5.xirsys.com"]},
                {"username": "wvyohM6YQLnnWHVbjC57QCyuSje499sygAgHX1l5E3pRz7Fo-Nha1Uo439Mu-ZGnAAAAAGQYRW1nZW9yZ2lhbnRhbmFzZWxlYQ==",
                 "credential": "91a267b8-c713-11ed-9a20-0242ac140004",
                 "urls": ["turn:eu-turn5.xirsys.com:80?transport=udp",
