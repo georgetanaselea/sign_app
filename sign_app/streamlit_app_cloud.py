@@ -24,7 +24,7 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers":[{"urls": ["stun:relay.metered.ca:80"]}]}
+    {"iceServers":[{"urls": ["stun:eu-turn5.xirsys.com"]}]}
 
 )
 list_of_predictions = []
