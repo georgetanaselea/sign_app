@@ -24,7 +24,7 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers":ice_servers = [{"urls": "stun:relay.metered.ca:80"},
+    {"iceServers":[{"urls": "stun:relay.metered.ca:80"},
                                  {"urls": "turn:relay.metered.ca:80",
                                   "username": "fde6cbb36d18c153785bf733",
                                   "credential": "bEuNDxnIvdtIPPvB"},
