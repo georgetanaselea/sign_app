@@ -24,7 +24,7 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers": [{"urls": ["stun.l.google.com:19302"]}
+    {"iceServers": [{"urls": ["stun.l.google.com:19302"]}}
 )
 list_of_predictions = []
 # counter = 0
