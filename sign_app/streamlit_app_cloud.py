@@ -24,13 +24,7 @@ config.run_functions_eagerly(True)
 option = " "
 
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers":[{"urls": ["stun:relay.metered.ca:80"]},
-               {"username": "6111ad682a4920b506059ea0",
-                "credential": "rTbQUUtQWOSXGzq4",
-                "urls": ["turn:relay.metered.ca:80",
-                         "turn:relay.metered.ca:443",
-                         "turn:relay.metered.ca:443?transport=tcp"]}]}
-
+    {"iceServers":[{"urls": ["stun:relay.metered.ca:80"]}]}
 
 )
 list_of_predictions = []
