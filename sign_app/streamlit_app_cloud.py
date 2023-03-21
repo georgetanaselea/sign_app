@@ -42,8 +42,9 @@ RTC_CONFIGURATION = RTCConfiguration(
         "urls": "turn:relay.metered.ca:443?transport=tcp",
         "username": "f63c0e2ba5719fd0b6c5d4a6",
         "credential": "s3RBkZRVADiltr19",
-      },
-  ]
+      }]
+     )
+    
 list_of_predictions = []
 # counter = 0
 def app_sign_language_detection(model, mp_model):
